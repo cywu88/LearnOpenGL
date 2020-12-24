@@ -18,8 +18,16 @@
     <ClCompile Include="glad.c">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="hello_window.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hello_triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
