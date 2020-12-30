@@ -1,3 +1,6 @@
+#ifndef __COMMON_H__
+#define __COMMON_H__
+
 #include <glad/glad.h> 
 #include <GLFW/glfw3.h>
 
@@ -121,3 +124,5 @@ int createShader()
 
 	return shaderProgram;
 }
+
+#endif

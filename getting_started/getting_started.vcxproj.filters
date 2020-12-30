@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\resources">
+      <UniqueIdentifier>{3d5adaac-1569-4c32-9277-5f4df7a37a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures">
+      <UniqueIdentifier>{b74dd40e-015d-4516-a9d1-21921379f62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader">
+      <UniqueIdentifier>{68ca06ee-6132-46b1-86ba-6a1ba6eb5b93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,5 +41,69 @@
     <ClInclude Include="common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders_class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="textures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transformations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="coordinate_systems.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_circle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3.3.1.shader.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="3.3.2.shader.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="3.3.shader.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="3.3.shader.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="4.2.texture.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="4.2.texture.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="5.1.transform.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="5.1.transform.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.2.coordinate_systems.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.2.coordinate_systems.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="7.1.camera.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="7.1.camera.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\awesomeface.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
